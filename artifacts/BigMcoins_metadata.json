@@ -1,0 +1,153 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "investor",
+						"type": "address"
+					}
+				],
+				"name": "equity_in_usd",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "investor",
+						"type": "address"
+					}
+				],
+				"name": "equity_in_bigmcoins",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "usd_to_bigmcoins",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "total_bigmcoins_bought",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "investor",
+						"type": "address"
+					},
+					{
+						"name": "bigmcoins_sold",
+						"type": "uint256"
+					}
+				],
+				"name": "sell_bigmcoins",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "investor",
+						"type": "address"
+					},
+					{
+						"name": "usd_invested",
+						"type": "uint256"
+					}
+				],
+				"name": "buy_bigmcoins",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "max_bigmcoins",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"bigmcoin.sol": "BigMcoins"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"bigmcoin.sol": {
+			"keccak256": "0x21d370afb64da93cd4a22eafaaaee4f685d980dcf3c91725215d096a15a19ba8",
+			"urls": [
+				"bzzr://9a17025adf91823b8b7e0e6e934d757dbbe6cf9ae3a635ca54668f118886d40d"
+			]
+		}
+	},
+	"version": 1
+}
